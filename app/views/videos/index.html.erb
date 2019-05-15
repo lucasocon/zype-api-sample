@@ -1,0 +1,15 @@
+<div class="row">
+  <ul class="listrap">
+    <% @videos.each_with_index do |video, index| %>
+      <li>
+        <a href="<%=video_path(video['_id'])%>">
+          <div class="listrap-toggle">
+            <span></span>
+            <%= image_tag(video["thumbnails"][0]["url"], class: "gallery__img") %>
+          </div>
+          <strong><%= video["title"] %></strong>
+        </a>
+      </li>
+    <% end %>
+  </ul>
+</div>

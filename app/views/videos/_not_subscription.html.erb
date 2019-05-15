@@ -1,0 +1,12 @@
+<div>
+  <div class="alert alert-success " role="alert">
+    <div class="d-inline p-2">This video does not need subscription to reproduce</div>
+    <div class="d-inline p-2">
+      <a href="<%=videos_path%>" class="p-2 bg-info text-white">go back</a>
+    </div>
+  </div>
+  
+  <div id="zype_<%=params[:id]%>"></div>
+
+  <script src="https://player.zype.com/embed/<%=params[:id]%>.js?autoplay=true&app_key=XWny5j0V89yb1uZu6SI_D95EADV5FzBYldE9Ny0_q0GOzcWLiruPyhN-f2Pcyohf" type="text/javascript"></script>
+</div>

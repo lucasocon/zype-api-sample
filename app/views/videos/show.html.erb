@@ -1,0 +1,5 @@
+<% if @video["subscription_required"] && session %>
+  <%= render "subscription" %>
+<% else %>
+  <%= render "not_subscription" %>
+<% end %>

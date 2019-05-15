@@ -1,0 +1,27 @@
+.gallery__img {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+  display: block; 
+}
+
+.listrap li {
+  margin: 0;
+  padding: 10px;
+}
+
+.listrap li.active, .listrap li:hover {
+  background-color: #d9edf7;
+}
+
+.listrap strong {
+  margin-left: 10px;
+}
+
+.listrap .listrap-toggle {
+  display: inline-block;
+}
+
+.listrap li.active .listrap-toggle span {
+    display: block;
+}
