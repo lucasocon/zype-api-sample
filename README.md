@@ -1,27 +1,25 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
 Things you may want to cover:
 
 * Ruby version
 
-    ruby '2.6.1'
+	    ruby '2.6.1'
 
 * Configuration
 
-    bundle install
+	    bundle install
 
 * Database creation
 
-    rake db:create
+	    rake db:create
 
 * Database initialization
 
-    rake db:migrate
+	    rake db:migrate
 
 * How to run server
 
-    rails s
+	    rails s
       
+
+
